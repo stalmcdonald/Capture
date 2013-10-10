@@ -11,7 +11,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/btnRecordVideo"
-            android:layout_marginTop="110dp" />
+            android:layout_marginTop="110dp" 
+            android:layout_marginLeft="50dp"/>
 
         <Button
             android:id="@+id/btnRecordVideo"
@@ -30,5 +31,14 @@
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="34dp"
             android:background="@drawable/process" />
+
+   <Button
+       android:id="@+id/confirmBttn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/btnRecordVideo"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="27dp"
+       android:text="I have watched the video" />
 
 </RelativeLayout>

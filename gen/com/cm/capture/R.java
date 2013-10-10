@@ -15,12 +15,14 @@ public final class R {
         public static final int photo_camera=0x7f020001;
         public static final int play=0x7f020002;
         public static final int process=0x7f020003;
-        public static final int video_camera=0x7f020004;
+        public static final int ssy=0x7f020004;
+        public static final int video_camera=0x7f020005;
     }
     public static final class id {
         public static final int btnRecordVideo=0x7f080001;
         public static final int button1=0x7f080002;
-        public static final int menu_settings=0x7f080003;
+        public static final int confirmBttn=0x7f080003;
+        public static final int menu_settings=0x7f080004;
         public static final int videoView1=0x7f080000;
     }
     public static final class layout {
