@@ -9,7 +9,7 @@
         android:id="@+id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="If you feel like you have been processed in error please go to the nearest facility for updates."
+        android:text="If you feel you have received this message in error please visit your nearest Capture facility."
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     

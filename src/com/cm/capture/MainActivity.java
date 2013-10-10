@@ -125,11 +125,11 @@ public class MainActivity extends Activity {
 			//startActivity(intent);
 			
 			// Creating Notification
-			// Processes the user.  User is aware of SisterSeesYou and the Capture program
+			// Processes the user.  User is aware of SisterSeesYou and the Capture program: Marital Law
 			Notification processNotification = new Notification.Builder(this)
 				
 				.setContentTitle("Message from SisterSeesYou")
-				.setContentText("You have been been captured successfully.")
+				.setContentText("Citizen Accounted for Successfully.")
 				.setSmallIcon(R.drawable.ssy)
 				.setContentIntent(processingIntent)
 				.setSound(soundUri)			

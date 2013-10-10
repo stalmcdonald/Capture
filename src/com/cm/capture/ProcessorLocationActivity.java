@@ -44,8 +44,6 @@ public class ProcessorLocationActivity extends Activity {
 		
 		//getting text view objects by id
 		tv = (TextView)findViewById(R.id.tv);
-//		textLat = (TextView)findViewById(R.id.textLat);
-//		textLong = (TextView)findViewById(R.id.textLong);
 		
 		 LocationManager lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 		    LocationListener ll = new mylocationlistener();
